@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:3001")
+                        .allowedOrigins("https://p1-frontend-anu9.onrender.com")
                         .allowedMethods("*")
                         .allowedHeaders("*");
             }

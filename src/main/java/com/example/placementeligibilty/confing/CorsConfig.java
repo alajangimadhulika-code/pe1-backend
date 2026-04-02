@@ -17,6 +17,7 @@ public class CorsConfig {
                         .allowedOrigins("https://p1-frontend-anu9.onrender.com")
                         .allowedMethods("*")
                         .allowedHeaders("*");
+                        .allowCredentials(true);
             }
         };
     }

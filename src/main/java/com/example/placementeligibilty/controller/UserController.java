@@ -10,7 +10,7 @@ import com.example.placementeligibilty.service.UserService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:3001")
+@CrossOrigin(origins = "https://p1-frontend-anu9.onrender.com")
 public class UserController {
 
     @Autowired
